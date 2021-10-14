@@ -1,0 +1,119 @@
+Please find my reply below:
+
+1) Explore Menu prompt not working
+Ans: I didn’t work on it. It is the same as it is in provided in code files. So there might be a possibility that you don't have the same code which belongs to the release build (2.0). The same thing we faced with App icon which was not in provided files and I worked on it again. So there might be a possibility of what I just mentioned.
+You: What is the event name for displaying the Menu?
+My Reply: display_menu
+This event name does not appear in the Events Menu – explain why not or complete task.
+
+EVENT HAS BEEN CREATED
+
+2) Reduce Icon size 75%
+Ans: Which icon, APP icon? App icon size is fixed and different in dimensions for all devices (iPhone8 to iPhone 11 max pro)
+You: The solution is a smaller Message Format. The format used for Cloud Messages is suitable or Top Banner is there is no time limitation.
+My Reply: Ok, I will setup a banner instead of modal In app message.
+Pending completion
+
+5) PlanFinder Instruction Prompt should display 1st view of Table of Contents (Menu) not List of Videos. What is the event name for "view Table of Contents (Menu)?
+Ans: - What do you mean by “1st view of Table of Contents” (Menu) this is a video list. Please send a screenshot of the app screen where I need to display that.
+You: The Menu Prompt should display on 1st view of the Menu. See attached Menu Screenshot.
+My Reply: Okay, The event name of display menu content: “view_first_tableContent” at the firebase.
+Change event name to 1st menu view.Pending completion
+
+Done.
+
+6) Darden Promo goal is not set for Form_Conversion
+Ans: “Darden Promo goal ” you should have mentioned all these things in requirement clearly. I haven't covered this in the project scope. This is the most important Message. What is your solution? 7) Why not, Form_Submit s an event?
+Ans: Form_Submit event, I am sure you are aware that your App has developed using WebView Display of form. ReactNative provides some methods to communicate with WebViews content by using “inject js”, “onMessage”, “post message”, I have tried all these solutions but I didn’t get the access of "Submit" button event. Because it's not possible to do all things in WebViews which is possible in native things only.
+You: Should I delegate this task to Ver.2.0 Developer? Are there any other tasks I should delegate to Ver2.0 Developer?
+My Reply: You can delegate this one for sure. No, there aren’t any.
+
+8) don't know what you are referring to. Have you implemented " Test Messaging"?
+Ans: Where is it mentioned, "Test Messaging"?
+You: See attached screenshot.
+My Reply: Ok, For this I need your device to get your “FCM” token or we need to code more to save your FCM token by fetching it from your device (2nd option is an add-on in this case).
+Google Search uncovered this:
+Where can I find FCM registration token?
+Using new API, you can get token like this: FirebaseInstanceId. getInstance(). getInstanceId().
+...
+New Firebase token is generated ( onTokenRefresh() is called) when:
+1.      The app deletes Instance ID.
+2.      The app is restored on a new device.
+3.      The user uninstalls/reinstall the app.
+4.      The user clears app data.
+Does this help?
+Me :no Instance ID is not fcm token , we suggest to send cloud message to Topic "Medicare" , instead of fcm token,
+I have subscribed this "Medicare" topic to send cloud message to
+all users without specify FCM token
+
+8) Implement Financial FactFinder prompt using Form_Submit event
+Ans: I have already mentioned, it's not possible to detect the event of form submit button, and it's success or failure functionality.
+You: Will delegate to Ver2.0 Developer.
+My Reply: Sure
+
+9) Can you create a "Viewed Financial FactFinder" event?
+Ans: I can create a new. “form_closed” event that is already created.
+You: Form_closed = Medicare FactFinder. This task relates to creating an event for opening Financial FactFinder. Can you create this event?
+My Reply: - Yes, I have created “financial_form_started” event - Completed
+
+11) Please create "Opened Table of Contents"(Menu) event, if it exists, what is its name.
+Ans: What do you mean by “Table of Contents” "(Menu) please attach screenshot.
+You: See the screenshot.
+My Reply: Okay Got it, and created related event. What is the new event name?
+Me :display_menu / 1st_menu_view both event will work for it.
+12) Provide definitions for each event.
+Ans: I can share each event. Please find below:
+
+Sr. No. EVENT DESCRIPTION
+1. financial_form_started: When final form opened.
+You: Does this mean Financial FactFinder form opened?
+ANS : YES
+2. form_open:
+When “Feedback form” open Double check this event behavior
+You: If Form_open = Client Feedback Form opened, the Menu Prompt In-App schedule set up is incorrect. A “Menu Open” event should be created to replace
+My Reply:- There are two events, 1. form_open = feedbacks form open event 2. form_opened = Medicare fact-finder form open.
+form_open has 1125 hits vs form_opened =257 hits. This data does not support form_open = Feedback form. The data supports form_open = Medicare Factfinder. Confirm the behavior associated with form_open. & form_opened
+
+You:Change event name form_open to CFB_open. Change event name form_opened to MFF_opened after confirming each events behavior.
+Me: I have replaced form_open to "CFB_open" and "form_opened" to "MFF_opened" and I have alerdy confirm that
+CFB_open = feedback form open in app
+MFF_opened = Medicare factfinder form open in app
+
+3. instruction_end:
+When Video instruction ended.
+4. video_list_displayed:
+When Video List Displayed (1st view of table content)
+You: WRONG, The Table of Contents = PlanFinder Instructions, Medicare FactFinder, Financial FactFinder, Educational Videos, Client Feedback Form
+My Reply: Okay, I have replaced as you mentioned.
+Change the event name for this behavior to Menu_view.
+Me:We have already changed "display_menu" ,"1st_view_table" as you mentioed in your earlier comments, and its working
+
+5. On_Notification:
+When the user clicks on notification and message is received.
+6. form_opened:
+When Fact finder form opened.
+You: Medicare FactFinder form opened
+My Reply: Yes.
+7. form_closed:
+When fact finder form closed.
+You: Medicare FactFinder form is closed
+My Reply: Yes.
+8. instruction_start: When instruction started, but for now its commented, because it was not relevant to your requirements mentioned in the PDF.
+You: Has this event been created?
+My Reply:- Yes, but as I mentioned its commented in code, now I opened and logged in firebase. It will be available to use in the next 24 hours(Firebase take time to list that).
+13) Create A/B Testing for messages with conversion tracking.
+Ans: This is a new task, you should mention conversation tracking before. If you agree, please share the requirements more specifically.
+The project scope included A/B Testing of the Darden Promo. This task needs to be completed.
+Me: We have already implemented as you mentioned and PDF notification based conversation recording and A/B testing , for rest add-on
+Client: Cloud: A) 2021 AEP Prompt B) Darden Gift Card Promo, In-App: C) Prepare to complete the Medicare FactFinder
+My Reply:- Please describe in Brief every and each message, Like how many users (%) you want to target. How many tests you want to create. Please note that I have earlier mentioned this point as an add-on after your approval I will start working on it.
+Ignore, will be included in a future project.
+
+Apart from this, I have the following concerns:
+1. I can’t review or edit the Churn or Review App Cloud Messages. How to resolve this?
+My Reply:- It wasn't included in this project scope. So please consider it as an add-on.
+The project scope includes full implementation of FCM/In-App messaging. The ability to review and edit messages is assumed to be included.
+
+2. Place the word “Menu” next to the Menu Icon
+Ans: Add-on, I need to work on it as I will be creating custom code. It is not just like adding a text or replacing a text.
+Ignore, included in future project.

@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Medicare PlanFinder",
+    "slug": "medicare-planfinder",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.sigmasolve.medicareplanfinder",
+      "buildNumber": "2.0.0"
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#0ea2e2"
+    },
+    "android": {
+      "package": "com.sigmasolve.medicare_factfinder",
+      "versionCode": 3,
+      "googleServicesFile": "./google-services.json"
+    },
+    "description": "",
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}

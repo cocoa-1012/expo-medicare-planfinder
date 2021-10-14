@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1096680634032",
+    "firebase_url": "https://medicare-planfinder-version-2.firebaseio.com",
+    "project_id": "medicare-planfinder-version-2",
+    "storage_bucket": "medicare-planfinder-version-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096680634032:android:2ad304186a37a8bd52ad75",
+        "android_client_info": {
+          "package_name": "com.sigmasolve.medicare_factfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096680634032-2kfemo9uv9ga16rahiud5o81lvd9i3ev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sigmasolve.medicare_factfinder",
+            "certificate_hash": "d2105ea65ccf9fb074baaa3ff7f2ce70bdbb8365"
+          }
+        },
+        {
+          "client_id": "1096680634032-p4dlb3a1qj538l124fkhisu5778bvg2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt0jGLtF3VEV3-Z5lQCWMietoGGJic9d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096680634032-p4dlb3a1qj538l124fkhisu5778bvg2u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1096680634032-qgv9a6ftcamr5h1meel0rcbh9d6c6rj8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sigmasolve.medicareplanfinder",
+                "app_store_id": "1475620704"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

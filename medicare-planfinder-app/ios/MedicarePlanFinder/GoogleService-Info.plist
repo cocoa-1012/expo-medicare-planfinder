@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="2.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1096680634032-qgv9a6ftcamr5h1meel0rcbh9d6c6rj8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1096680634032-qgv9a6ftcamr5h1meel0rcbh9d6c6rj8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCHnJGDizdiJeawt8QUCYh09FHN911WDdI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1096680634032</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.sigmasolve.medicareplanfinder</string>
+	<key>PROJECT_ID</key>
+	<string>medicare-planfinder-version-2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medicare-planfinder-version-2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1096680634032:ios:c966cf985f5e5d4e52ad75</string>
+	<key>DATABASE_URL</key>
+	<string>https://medicare-planfinder-version-2.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+{
+  "urlRandomness": "tg-gvn",
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "https": false
+}
